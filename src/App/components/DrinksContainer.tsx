@@ -47,7 +47,7 @@ const DrinksContainer: FunctionComponent<DrinksContainerProps> = ({
           .filter((val) => {
             if(searchWineTerm == ""){
              return val;
-            }else if(val.name.toLowerCase().includes(searchWineTerm.toLowerCase())){
+            }else if(val.name.toLowerCase().includes(searchWineTerm.toLowerCase()) || val.year.toString().toLowerCase().includes(searchWineTerm.toLowerCase()) || val.producer.toLowerCase().includes(searchWineTerm.toLowerCase()) ){
               return val
             }
           })
