@@ -1,0 +1,40 @@
+.comment-box{
+    background-color: rgb(117, 14, 14);
+    width: 100%;
+    color: #fff;
+}
+
+.comment-box h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.comment-item{
+color: #fff;
+}
+
+.comment-item h3{
+    color: #fff;
+    }
+
+.identity{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+        border-top: 1px solid #fff;
+}
+
+.identity h4{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.identity p{
+    font-size: 14px;
+}
+
+.comment-item h3{
+    padding-left: 20px;
+    font-size: 28px;
+}
